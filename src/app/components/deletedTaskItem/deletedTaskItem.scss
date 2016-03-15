@@ -1,0 +1,30 @@
+.list-group-item {
+  .badge-active {
+    background-color: orange;
+    color: white;
+  }
+  .badge-completed {
+    background-color: #5cb85c;
+    color: white;
+  }
+}
+
+div.deleted {
+  text-decoration: none;
+  &:hover {
+    color: dimgrey;
+  }
+}
+
+a.green {
+  padding-left: 5px;
+  color: #77D2FB;
+  font-size: 10px;
+  vertical-align: bottom;
+  text-decoration: underline;
+}
+
+.timestamp {
+  font-size: 10px;
+  font-style: italic;
+}

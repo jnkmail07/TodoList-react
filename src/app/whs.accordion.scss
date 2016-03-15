@@ -1,0 +1,30 @@
+.accordion {
+  .panel-heading {
+    hr {
+      height: 1.2px;
+      background-color: $black-40;
+      margin: 0;
+      padding: 0;
+    }
+
+    .panel-title{
+
+      a {
+        color: $purple;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        font-weight: bolder;
+      }
+      &:before {
+        color: $gray;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .panel-body{
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+}

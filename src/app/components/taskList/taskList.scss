@@ -1,0 +1,37 @@
+#workspace {
+  color: $white;
+  min-height: 850px;
+  .content {
+    padding-bottom: 15px;
+  }
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row {
+    .col-md-12 {
+      p {
+        padding-left: 25px;
+      }
+      ul {
+        padding-right: 41px;
+      }
+    }
+  }
+
+  .content {
+    padding-top: 20px;
+  }
+}
+
+h2 {
+  color: white;
+}
+
+.task-list {
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  padding-top: 10px;
+  color: black;
+}

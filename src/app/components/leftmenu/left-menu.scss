@@ -1,0 +1,92 @@
+.equal-height-row {
+  overflow: hidden;
+}
+
+@mixin equal-height-content {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.equal-height-content {
+  @include equal-height-content;
+}
+
+@media(min-width:$minimum-container-width) {
+   .sidebar {
+      z-index: $sidebar-z-index;
+      position: absolute;
+      top: 0;
+      width: $left-nav-width;
+      margin-top: $left-nav-top-margin;
+   }
+}
+
+.sidebar {
+    @include equal-height-content();
+   .arrow {
+      float: right;
+   }
+   .sidebar-nav.navbar-collapse {
+      padding-right: $none;
+      padding-left: $none;
+   }
+   ul li{
+      a {
+         background-color: $mine_shaft;
+         color: $gray;
+         &.active, &:hover, &:focus {
+            background-color: $gray-16;
+            color: $deep-sky-blue-1;
+         }
+         i {
+            margin-right:$sidebar-left-menu-list-icon-margin-right;
+            font-size: $sidebar-left-menu-list-icon-font-size;
+         }
+      }
+        ul li {
+            border-bottom: $sidebar-left-menu-list-icon-border-bottom solid $wt-panel;
+            a {
+                &.active, &:hover, &:focus {
+                  background-color: $gray-23;
+                  color: $pumpkin;
+                }
+            }
+        }
+   }
+    .panel{
+        margin-bottom: $none;
+        color: $gray;
+        border: $none;
+        border-bottom: $sidebar-panel-border-bottom solid $wt-panel;
+        border-radius: $none;
+        -webkit-box-shadow: $none $none $none $invisible;
+        box-shadow: $none $none $none $invisible;
+    }
+
+   ul li:first-child {
+   }
+   .fa.arrow:before {
+      content: "\f104";
+   }
+   .active>a>.fa.arrow:before {
+      content: "\f107";
+   }
+
+    .nav-second-level {
+      li {
+         list-style: disc;
+      }
+        li:last-child {
+            border-bottom: $none;
+        }
+      a {
+         background-color: $gray-23;
+         color: $pumpkin;
+         padding-left: $sidebar-nav-second-level-anchor-padding-left;
+         .fa {
+            font-size: $sidebar-nav-second-level-font-size;
+            vertical-align: middle;
+         }
+      }
+    }
+}

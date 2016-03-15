@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "airbnb/legacy",
+    "airbnb/rules/react"
+  ]
+}

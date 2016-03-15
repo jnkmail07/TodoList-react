@@ -1,0 +1,31 @@
+.icon-2x {
+  font-size: 200%;
+}
+
+.icon-small {
+  font-size: 12px;
+}
+
+.icon-standard {
+  font-size: 14px;
+}
+
+.icon-big {
+  font-size: 16px;
+}
+
+.icon-large {
+  font-size: 32px;
+}
+
+.icon-huge {
+  font-size: 64px;
+}
+
+.icon-gigantic {
+  font-size: 96px;
+}
+
+i[class*='ion-']:before {
+  vertical-align: middle;
+}

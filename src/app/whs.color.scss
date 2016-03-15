@@ -1,0 +1,89 @@
+// Primary
+$wh-blue: #136386;
+$wh-black: #141005;
+$black: #000;
+
+// Watchtower primary
+$wt-bar: #333333;
+$wt-panel: #58595B;
+$wt-filter: #818286;
+
+$wt-text: #F2F2F4;
+$wt-link-blue: #77D2FB;
+$wt-orange: #FF7906;
+$wt-blue: $wt-link-blue;
+
+$wt-menu-active: $wt-link-blue;
+$wt-menu-idle: #A9AAAD;
+
+$wt-button: $wt-orange;
+$wt-button-hover: #E69F01;
+$wt-badge: $wt-orange;
+
+$wt-hot-text: $wt-orange;
+$wt-warm-text: #F1AE2E;
+$wt-cool-text: #4F9135;
+$wt-cold-text: #6D54DE;
+
+$wt-icon: $wt-blue;
+
+// Secondary
+$green: #52962F;
+$purple: #452B95;
+$red: #BC1C31;
+
+$orange: #ED7E12;
+$yellow: #F9BA00;
+$blue: #289BDE;
+$light-blue: #DEECFA;
+$light-gray: lighten($wt-panel, 30%);
+$link-blue: #5F9ACC;
+$active-link: $link-blue;
+
+// Greyscale
+$black-80: #58595B;
+$black-40: #A7A9AC;
+$black-20: #CBCED0;
+$black-10: #E6E7E8;
+$black-5:  #F7F8F9;
+$white: #fff;
+
+// Page Framing
+$frame-text: $black-40;
+
+//$COLORS: (
+//  Original colors as used in the Bree interface.
+//  Retained here for reference.
+//  wh-blue:  $wh-blue,
+//  black:    $black,
+//
+//  black-80: $black-80,
+//  black-40: $black-40,
+//  black-10: $black-10,
+//  white:    $white,
+//
+//  green:    $green,
+//  purple:   $purple,
+//  red:      $red,
+//  orange:   $orange,
+//  yellow:   $yellow,
+//  blue:     $blue
+//);
+
+// custom colors
+$mine_shaft: #333;
+$alto: #ddd;
+$gray: #808185;
+$gray-16: #292929;
+$deep-sky-blue-1: #8ad3ff;
+$gray-23: #3a3a3a;
+$pumpkin: #fd7e1d;
+$gray-60: #888;
+$gray-80: #ccc;
+$fuchsia_blue: #7250e1;
+$sienna-2: #f47b1f;
+$lightning-yellow: #ffba11;
+$vida-loca: #52992d;
+$cerulean: #009cdd;
+$cadetblue: #81d4ff;
+$lightcoral : #e45e5e;

@@ -1,0 +1,53 @@
+// _constants.scss: Please declare all your constants here to keep application behavior consistent
+
+$none: 0px;
+$invisible: rbga($none, $none, $none, $none);
+$minimum-container-height: 680px;
+$minimum-container-width: 768px;
+$full-body-container: 100%;
+$container-left-margin: 250px;
+$container-right-padding: 30px;
+$url-logo: url('/assets/images/logo.png');
+
+// navbar
+$nav-bar-text-indent: -999999px;
+$nav-bar-brand-width: 155px;
+$nav-bar-top-links-font-size: 1.6em;
+$chevron-padding-left: 4px;
+$chevron-font-size: 1em;
+
+// Topbar
+$top-nav-right-margin: -10px;
+$top-nav-achor-padding: 15px;
+$top-nav-achor-padding-right: 8px;
+$dropdown-user-margin-right: 16px;
+$dropdown-user-margin-top: -12px;
+$dropdown-menu-list-top: 3px;
+$dropdown-menu-list-right: 20px;
+$dropdown-menu-anchor-margin-right: 6px;
+$dropdown-menu-anchor-font-size: 1.3em;
+$top-title-width: 100%;
+$top-title-padding: 9px 0;
+$top-title-margin: 0 48px 0 0;
+$top-title-h1-font-size: 44px;
+$top-title-h1-font-weight: 500;
+$top-title-h1-line-height: 44px;
+$top-title-span-font-size: 10px;
+$top-title-span-font-weigth: 200;
+$top-title-span-line-height: 11px;
+$top-title-span-border-right: 1px;
+$top-title-span-padding-right: 4%;
+$top-title-span-margin-left: 3px;
+$top-toggle-help-padding: 6px 0 6px 15px;
+$top-toggle-help-margin: 9px 0 9px 0;
+
+// Sidebar
+$sidebar-left-menu-list-icon-margin-right: 6px;
+$sidebar-left-menu-list-icon-border-bottom: 1px;
+$sidebar-panel-border-bottom: 1px;
+$sidebar-left-menu-list-icon-font-size: 1.3em;
+$sidebar-nav-second-level-font-size: 6px;
+$sidebar-nav-second-level-anchor-padding-left: 37px;
+$sidebar-z-index: 1;
+$left-nav-width: 250px;
+$left-nav-top-margin: 63px;

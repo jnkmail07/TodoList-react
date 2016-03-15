@@ -1,0 +1,13 @@
+{
+  "name": "TodoList-react",
+  "version": "0.0.1",
+  "authors": [],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "Ionicons": "ionicons#~2.0.1",
+    "source-code-pro": "git://github.com/adobe-fonts/source-code-pro.git#release",
+    "font-source-sans-pro": "~0.1.0",
+    "neat": "~1.7.2",
+    "bootstrap-sass": "~3.3.5"
+  }
+}

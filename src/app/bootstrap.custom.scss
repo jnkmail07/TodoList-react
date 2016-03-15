@@ -1,0 +1,46 @@
+// Docs here: http://getbootstrap.com/customize
+
+// Colors
+$gray-dark: $black-80;
+$gray: $black-40;
+$gray-light: $black-5;
+
+$brand-primary: $wh-blue;
+$brand-primary-lighten: lighten($brand_primary, 10%);
+$brand-success: $green;
+$brand-info: $blue;
+$brand-warning: $yellow;
+$brand-danger: $red;
+
+$text-muted: $black-20;
+
+// Fonts
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-monospace: 'Source Code Pro', sans-serif;
+
+// Scaffolding
+$body-bg: $white;
+$link-color: $wt-link-blue;
+$link-hover-color: darken($link-color, 15%);
+
+// Navbar
+$navbar-border-radius: 0px;
+$navbar-default-border: transparent;
+$navbar-default-color: $white;
+$navbar-default-bg: $mine_shaft;
+$navbar-default-link-color: $link-color;
+$navbar-default-link-hover-color: darken($navbar-default-link-color, 15%);
+$navbar-default-link-active-bg: transparent;
+$navbar-default-link-active-color: lighten($navbar-default-link-color, 15%);
+$navbar-default-brand-color: $navbar-default-color;
+$navbar-default-toggle-hover-bg: transparent;
+$navbar-default-toggle-icon-bar-bg: transparent;
+$navbar-default-toggle-border-color: transparent;
+$nav-link-hover-bg: transparent;
+$navbar-height: 60px !default;
+
+// Tables
+$table-bg-hover: $light-blue;
+$table-border-color: $black-10;
+$table-cell-padding: 10px 10px;
+$pinned-filter-margin-top: 67px;

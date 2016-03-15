@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  padding-top: $navbar-height;
+  background-color: $wt-panel;
+  color: $wt-text;
+}
+#wrapper {
+  width: $full-body-container;
+  background: $mine_shaft;
+}
+#page-wrapper {
+  min-height: $minimum-container-height;
+  background: $wt-panel;
+}
+@media(min-width:$minimum-container-width) {
+  #page-wrapper {
+    position: inherit;
+    margin: $none $none $none $container-left-margin;
+    padding: $none $container-right-padding;
+  }
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  .small.default-color {
+    color: inherit;
+  }
+}
