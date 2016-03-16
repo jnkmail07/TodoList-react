@@ -1,52 +1,32 @@
-jest.dontMock('../components/searchbox');
+jest.dontMock('../components/createTaskBox');
 
 var React = require('react');
 var ReactDOM = require('react-dom');
 var TestUtils = require('react-addons-test-utils');
 
-var SearchBox = require('../components/searchbox');
+var CreateTaskBox = require('../components/createTaskBox');
 
-describe('SearchBox', function() {
+describe('AddTaskBox', function() {
 
-  it('can have its placeholder set from props', function() {
+  it('has a placeholder', function() {
 
-    var searchbox = TestUtils.renderIntoDocument(
-      <SearchBox placeholder="test placeholder" onFilter={function(){}}/>
+    var addTaskBox = TestUtils.renderIntoDocument(
+      <CreateTaskBox placeholder="Add a todo..." onClick={function(){}}/>
     );
 
-    var inputNode = TestUtils.findRenderedDOMComponentWithTag(searchbox, 'input');
+    var inputNode = TestUtils.findRenderedDOMComponentWithTag(addTaskBox, 'input');
 
-    expect(inputNode.getAttribute('placeholder')).toEqual('test placeholder');
+    expect(inputNode.getAttribute('placeholder')).toEqual('Add a todo...');
   });
 
-  it('can have its value set from props', function() {
+  it('can have its value set', function() {
 
-    var searchbox = TestUtils.renderIntoDocument(
-      <SearchBox defaultValue="test value" onFilter={function(){}}/>
+    var addTaskBox = TestUtils.renderIntoDocument(
+      <CreateTaskBox value="" onClick={function(){}}/>
     );
 
-    var inputNode = TestUtils.findRenderedDOMComponentWithTag(searchbox, 'input');
+    var inputNode = TestUtils.findRenderedDOMComponentWithTag(addTaskBox, 'input');
 
-    expect(inputNode.value).toEqual('test value');
+    expect(inputNode.value).toEqual('');
   });
-
-  it('trigger events on search button click', function() {
-
-    var callback = jest.genMockFunction();
-
-    var searchbox = TestUtils.renderIntoDocument(
-      <SearchBox onFilter={callback}/>
-    );
-
-    var inputNode = TestUtils.findRenderedDOMComponentWithTag(searchbox, 'input');
-    inputNode.value = 'test value';
-
-    TestUtils.Simulate.change(inputNode);
-
-    var buttonNode = TestUtils.findRenderedDOMComponentWithTag(searchbox, 'button');
-    TestUtils.Simulate.click(buttonNode);
-
-    expect(callback).toBeCalledWith('test value');
-  });
-
 });

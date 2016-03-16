@@ -42,6 +42,11 @@ Launch [Todo List](http://localhost:3002/) in a browser.
 gulp serve
 ```
 
+### Run Jest Unit tests
+```shell
+gulp test
+```
+
 ### Add Javascript modules
 
 ```shell
@@ -53,6 +58,12 @@ npm install <module name> --save
 bower install <module name> --save
 ```
 
+### Future enhancements
+* es5 => es2015
+* Gulp => Webpack
+* Increase unit test coverage
+* e2e tests using webdriver.io
+
 ### Configure IDE
 IntelliJ IDEA 15.x Preferences
 
@@ -63,4 +74,3 @@ In Preferences -> Languages & Frameworks -> Javascript, select 'JSX Harmony' as 
 #### Configure Code Quality Tools
 
 In Preferences -> Languages & Frameworks -> Javascript -> Code Quality Tools, select and enable ESLint.
-
